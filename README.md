@@ -1,4 +1,4 @@
-location-map
+Location Map
 ============
 
-Repository for our ambient location map visualization
+Repository for our ambient location map visualization. 
