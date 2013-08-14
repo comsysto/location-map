@@ -17,13 +17,13 @@
     <div class="island">
         <span class="sign">Office</span>
         <div class="peoplearea">
-            <img src="img/mixees/elisabeth.png" height="80">
-            <img src="img/mixees/christian.png" height="80">
-            <img src="img/mixees/marlene.png" height="80">
+            <img src="img/mixees/elisabeth.png" height="80" draggable="true"  ondragstart="dragUser(this, event)" />
+            <img src="img/mixees/christian.png" height="80" draggable="true" ondragstart="dragUser(this, event)" />
+            <img src="img/mixees/marlene.png" height="80" draggable="true" ondragstart="dragUser(this, event)" />
         </div>
     </div>
 
-    <div class="island island_300">
+    <div class="island island_300"  ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
         <span class="sign sign_300">HomeOffice</span>
     </div>
 
