@@ -1,4 +1,4 @@
 Location Map
 ============
 
-Repository for our ambient location map visualization. 
+Repository for our ambient location map visualization. Also called comSysto Land.

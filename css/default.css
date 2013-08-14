@@ -1,8 +1,6 @@
 * {
     font-family: Arial, sans-serif;
     font-size: 15px;
-    padding: 10px;
-
 }
 
 body {
@@ -11,18 +9,67 @@ body {
     margin: 0;
 }
 
+hgroup {
+    padding-top: 10px;
+}
+
 img {
     border: none;
 }
 
 h1 {
+    padding: 0px;
     font-size: 30px;
-    color: #4e3d2c;
+    color: white;
+    text-align: center;
+}
+
+div.island {
+    width: 400px;
+    height: 270px;
+    background-size: 400px;
+    background-image: url(../img/svg/insel01.svg);
+    background-repeat: no-repeat;
+    float: left;
+    margin: 30px;
+}
+
+div.island_200 {
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+}
+
+div.island_300 {
+    width: 300px;
+    height: 200px;
+    background-size: 300px;
 }
 
 .sign {
-    position: absolute;
+    padding-left: 110px;
+    padding-top: 10px;
     font-size: 20px;
     font-weight: bold;
     color: #857450;
+    width: 200px;
+}
+
+.sign_200 {
+    padding-left: 55px;
+    padding-top: 2px;
+    font-size: 13px;
+    width: 100px;
+}
+
+.sign_300 {
+    padding-left: 80px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+
+div.peoplearea {
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 370px;
 }
